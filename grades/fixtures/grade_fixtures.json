@@ -1,0 +1,33 @@
+[
+  {
+    "model": "school_roster.student",
+    "pk": 1,
+    "fields": {
+      "name": "Bob",
+      "date_enrolled": "2008-04-10 11:47:58-05"
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 1,
+    "fields": {
+      "letter": "A",
+      "students": [1]
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 2,
+    "fields": {
+      "letter": "B",
+      "students": [1]
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 3,
+    "fields": {
+      "letter": "C"
+    }
+  }
+]

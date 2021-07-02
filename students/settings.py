@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS += [
     'school_roster',
+    'grades',
     'django_extensions'
 ]
 
